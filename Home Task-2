@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Project Home Task 2</title>
+    <style>
+        img {
+            height: 350px;
+            width: 550px;
+        }
+        table, th, td{
+            border: 1px, solid, black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            background-color: #93f5f5;
+        }
+        th{
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Block type quote -->
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization,
+        WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and
+        deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+
+    <!-- Normal quote -->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <!-- Abbreviation type quote -->
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <!-- Address type quote -->
+    <address>
+        Written by Mohammad Shah Nur<br>
+        Visit us at: Near Daffodil International University.<br>
+        Duttapara, Ashulia, Dhaka.<br><br>
+    </address>
+
+    <!-- This is a link to visit Youtube -->
+    <a href="https://www.youtube.com">Visit YouTube</a><br><br>
+
+    <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" alt="Blue Bird"><br><br><br>
+
+    <!-- A colorful table -->
+    <table>
+        <caption>Farewell Giving Ceremony</caption>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to HTML</td>
+        </tr>
+        <tr>
+            <td>Introduction to CSS</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>Cultural Program</td>
+        </tr>
+        <tr>
+            <td>11:30 a.m.</td>
+            <td>2:30 p.m.</td>
+            <td>Science Fair</td>
+        </tr>
+        <tr>
+            <td>3:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>Food Fair</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>9:00 a.m.</td>
+            <td>12:00p.m.</td>
+            <td>Prize Giving Ceremony</td>
+        </tr>
+    </table><br>
+
+    <!-- It is a list -->
+    <h3>An Unordered List</h3>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>  
+    <h3>An Ordered List</h3>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol> 
+
+</body>
+
+</html>
